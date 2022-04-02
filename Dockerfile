@@ -1,8 +1,5 @@
 FROM openjdk:8
 
-# create app directory
-RUN mkdir /app
-
 #copy file 
 COPY src /src
 
